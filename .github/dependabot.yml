@@ -14,7 +14,9 @@ updates:
     assignees:
       - "hexa2k9"
 
-#  - package-ecosystem: "github-actions"
-#    directory: "/"
-#    schedule:
-#      interval: "weekly"
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    assignees:
+      - "hexa2k9"
