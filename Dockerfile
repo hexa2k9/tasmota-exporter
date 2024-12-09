@@ -9,7 +9,7 @@ RUN set -eux \
     && go mod download \
     && CGO_ENABLED=0 GOOS=linux GOARCH=${PLAT} go build -o app ./cmd
 
-FROM alpine:3.20
+FROM alpine:3.21
 
 RUN set -eux \
     && apk --no-cache upgrade
