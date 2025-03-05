@@ -2,7 +2,7 @@ module github.com/dyrkin/tasmota-exporter
 
 go 1.23
 
-require github.com/prometheus/client_golang v1.21.0
+require github.com/prometheus/client_golang v1.21.1
 
 require (
 	github.com/gorilla/websocket v1.5.3 // indirect
